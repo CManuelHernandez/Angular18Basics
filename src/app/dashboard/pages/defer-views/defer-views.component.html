@@ -9,7 +9,7 @@
   >
     Cargando...
   </p>
-  } @defer () {
+  } @defer (on idle) {
   <app-heavy-loaders-slow cssClass="bg-green-500" />
   } @placeholder {
   <p
@@ -17,7 +17,7 @@
   >
     Cargando...
   </p>
-  } @defer () {
+  } @defer (on viewport) {
   <app-heavy-loaders-slow cssClass="bg-purple-500" />
   } @placeholder {
   <p
